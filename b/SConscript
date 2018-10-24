@@ -1,0 +1,3 @@
+Import("env")
+obj_list = [env.Object("test.c")]
+Return("obj_list")
